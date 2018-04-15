@@ -1,4 +1,4 @@
-# block-blob-demo
+# Block Blob Demo
 
 Simple demo illustrating parallel download of blob block from Azure Blob Storage
 
