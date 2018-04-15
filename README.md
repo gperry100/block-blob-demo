@@ -24,4 +24,4 @@ This works fine, but can often be slow. [Azure block blobs](https://docs.microso
 blob.downloadRangeToByteArray(offset, blockSize, bytes, (int) offset);
 ```
 
-By using this and combining this with CompletedFutures we can easily download the blocks in parallel.
+By using this and combining it with CompletedFutures we can easily download the blocks in parallel.
