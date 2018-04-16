@@ -11,7 +11,7 @@ public class BlockBlobDownloaderTestCase {
     @Test
     public void testBlockBlobDownload() throws Exception {
         BlockBlobDownloader blockBlobDownloader = new BlockBlobDownloader();
-        byte[] bytes = blockBlobDownloader.downloadBlobBlocksAsByteArray("largeblobtest", "testBlobPeak");
+        byte[] bytes = blockBlobDownloader.downloadBlobBlocksAsByteArray("containerName", "blobName");
         FileUtils.writeByteArrayToFile(new File("block-blob-demo.txt"), bytes);
 
     }
